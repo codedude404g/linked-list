@@ -1,0 +1,19 @@
+Name- Merhawi Haile
+
+Merhawi_haile@student.uml.edu
+
+
+
+Homework 6
+
+
+success rate 100 %
+
+Update---> I was able to break down the files in 7.asm files.
+
+I was able to make the linker work for both cases (1 where "-o" option is used, the other where the symbols are resolved). 
+most of the work involved making helper functions for the code. basically, the starter code does the fisrt pass, and writing
+the second pass was not too difficult since its pretty similar to the first. 
+I made functions to handle the symbol table as a linked-list, the search function will find a symbol and return its address.
+the address is then converted to a 12-bit integer by print_binary_num(), and that's how I wrote the uncooked instructions.
+
